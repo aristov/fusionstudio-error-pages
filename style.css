@@ -16,9 +16,14 @@ body
 }
 .logo
 {
+  display: inline-block;
   opacity: .8;
   margin-bottom: 12px;
-  margin-left: -12px;
+  padding-right: 12px;
+}
+.logo[href]:hover
+{
+  opacity: 1;
 }
 .message
 {
